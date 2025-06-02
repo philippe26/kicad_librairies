@@ -1,0 +1,131 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP 2N2222
+D 1A Ic, 40V Vce, Small Signal NPN Transistor, TO-18
+K NPN Transistor
+F https://www.farnell.com/datasheets/296640.pdf
+$ENDCMP
+#
+$CMP AT24C512C-SSHD-T
+D I2C Serial EEPROM, 512Kb (65536x8), 2.7V-5.5V, 100k/400k/1MHz, SO8
+K I2C Serial EEPROM Nonvolatile Memory
+F http://ww1.microchip.com/downloads/en/devicedoc/atmel-8720-seeprom-at24c512c-datasheet.pdf
+$ENDCMP
+#
+$CMP ATSHA204A-STUCZ-T
+D Crypto Element, SHA256, 72bit unique ID, 2V to 5V, One-Wire interface, SOT23
+K 1-Wire Crypto SHA
+F http://ww1.microchip.com/downloads/en/DeviceDoc/ATSHA204A-Data-Sheet-40002025A.pdf
+$ENDCMP
+#
+$CMP ATmega1284P-AU
+D 20MHz, 128kB Flash, 16kB SRAM, 4kB EEPROM, JTAG, TQFP-44
+K AVR 8bit Microcontroller MegaAVR PicoPower
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega1284P-TQFP44
+D 20MHz, 16kB Flash, 1kB SRAM, 512B EEPROM, JTAG, TQFP-44
+K AVR 8bit Microcontroller MegaAVR
+F http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8272-8-bit-AVR-microcontroller-ATmega164A_PA-324A_PA-644A_PA-1284_P_datasheet.pdf
+$ENDCMP
+#
+$CMP ATmega328P-AU
+D 20MHz@5V, 10MHz@3V, Low Power AVR® 8-Bit Microcontroller, 32KB flash, 2KB RAM, 1KB EEPROM
+K ATMEGA CPU AVR ATMEL
+F http://ww1.microchip.com/downloads/en/DeviceDoc/ATmega48A-PA-88A-PA-168A-PA-328-P-DS-DS40002061A.pdf
+$ENDCMP
+#
+$CMP Arduino_mega_pro
+K MEGA2560 ATMEL
+F https://robotdyn.com/mega-2560-pro-embed-ch340g-atmega2560-16au-with-out-pinheaders.html
+$ENDCMP
+#
+$CMP G3MB-202P
+D Zero Cross Opto-Triac 240V, Vdrm 600V, IT 2A
+K Opto-Triac Opto Triac Zero Cross Solid State Relays
+F https://www.mouser.com/datasheet/2/307/g3mb_0609-298620.pdf
+$ENDCMP
+#
+$CMP G5NB-1A-DC5
+D Omron Elec relay, Miniature Single Pole, SPST-NO, 5A, 250Vac, 5V COIL
+K Miniature Single Pole Relay Omron SPST
+F https://omronfs.omron.com/en_US/ecb/products/pdf/en-g5nb.pdf
+$ENDCMP
+#
+$CMP G5NB-1A-E-DC5
+D Omron Elec relay, Miniature Single Pole, SPST-NO, 7A, 250Vac, 5V COIL
+K Miniature Single Pole Relay Omron SPST
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FOJ_OJE_series_relay_data_sheet_E%7F0318%7Fpdf%7FEnglish%7FENG_DS_OJ_OJE_series_relay_data_sheet_E_0318.pdf%7F1393194-7
+$ENDCMP
+#
+$CMP HLK-10M05
+D Wide range input 85-264VAC/70-350VDC, Isolated (3kV) AC/DC converter, 5V 10W (2A) output
+F https://www.hlktech.com/en/Product/Details/29
+$ENDCMP
+#
+$CMP IB0505LS-1W
+D 200mA Regulated 1W DC/DC converter with 1kV isolation, 4.5V-5.5V input, 5V fixed Output Voltage, SIP-6
+K isolated isolation dc-dc converter transformer
+F https://datasheet.lcsc.com/lcsc/2004151709_rlt-IB0505LS-1W_C512056.pdf
+$ENDCMP
+#
+$CMP Led_Bargraph_DIP10
+D Generic connector, double row, 02x10, counter clockwise pin numbering scheme (similar to DIP packge numbering), script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F http://www.sparkfun.com/datasheets/Components/LED/YSLB-102510G5-10.pdf
+$ENDCMP
+#
+$CMP NCS2333DR2G
+D PRECISION CMOS RAIL-TO-RAIL OUTPUT OPERATIONAL AMPLIFIERS -(-40 to 125°C)
+K AMPLI-OP
+F https://www.ti.com/lit/ds/symlink/tlc4502.pdf
+$ENDCMP
+#
+$CMP Omron-B3FS
+D Push button switch, generic, two pins
+K switch normally-open pushbutton push-button
+F https://www.mouser.fr/datasheet/2/307/omron_B3FS-1189765.pdf
+$ENDCMP
+#
+$CMP RELAY-SPST-TE-OJ
+D Tyco Elec relay, Miniature Single Pole, SPST-NO, 10A, 277Vac
+K Miniature Single Pole Relay TE SPST
+F https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7FOJ_OJE_series_relay_data_sheet_E%7F0318%7Fpdf%7FEnglish%7FENG_DS_OJ_OJE_series_relay_data_sheet_E_0318.pdf%7F1393194-7
+$ENDCMP
+#
+$CMP TLC4502ACD
+D PRECISION CMOS RAIL-TO-RAIL OUTPUT OPERATIONAL AMPLIFIERS -(0 to 70°C)
+K AMPLI-OP
+F https://www.ti.com/lit/ds/symlink/tlc4502.pdf
+$ENDCMP
+#
+$CMP TLC4502AID
+D PRECISION CMOS RAIL-TO-RAIL OUTPUT OPERATIONAL AMPLIFIERS -(-40 to 125°C)
+K AMPLI-OP
+F https://www.ti.com/lit/ds/symlink/tlc4502.pdf
+$ENDCMP
+#
+$CMP TPS2041BDR
+F http://www.ti.com/lit/ds/symlink/tps2041b.pdf
+$ENDCMP
+#
+$CMP TPS2051BDR
+D Current-Limited,Power-DistributionSwitches 500mA continuous current (70 mohm Mosfet), 2.7~5.5V, thermal & current overprotection (1A)
+K load switch
+F http://www.ti.com/lit/ds/symlink/tps2041b.pdf
+$ENDCMP
+#
+$CMP TS5A3160
+D ingle-pole double-throw (SPDT) analog switch, designed to operate from 1.65 V to 5.5 V
+K SPDT ANALOG SWITCH
+F https://www.ti.com/lit/ds/symlink/ts5a3160.pdf?ts=1654540095162&ref_url=https%253A%252F%252Fwww.ti.com%252Fswitches-multiplexers%252Fanalog%252Fproducts.html
+$ENDCMP
+#
+$CMP attiny4313
+D Low Power AVR® 8-Bit Microcontroller
+K atmel attiny avr
+F http://ww1.microchip.com/downloads/en/DeviceDoc/doc8246.pdf
+$ENDCMP
+#
+#End Doc Library

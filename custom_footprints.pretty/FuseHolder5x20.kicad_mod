@@ -1,0 +1,150 @@
+(footprint "FuseHolder5x20"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0.5 0)
+		(layer "F.Fab")
+		(uuid "aa6e0cd2-64a0-4695-b662-58721ffb7e81")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Fuse-Holder-5x20"
+		(at 0 -0.5 0)
+		(layer "F.Fab")
+		(uuid "1108f1a3-ffb0-4ee7-a32b-f86d12076e0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8198bb06-8539-4c9a-8947-8c8b69ec91f2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "4ecf7626-23d4-40ce-9d59-68181cae29ca")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5ab9c47-6550-40d7-bfe6-fa78cfbd8ea6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -13.335 -5.08)
+		(end 13.335 5.08)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "533186d2-9fb3-445a-90e8-9e2d443f5a98")
+	)
+	(fp_line
+		(start -12.75 -4.75)
+		(end 12.75 -4.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "77e2b8f4-243f-4b8c-a044-2d82774e1259")
+	)
+	(fp_line
+		(start -12.75 4.75)
+		(end -12.75 -4.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ffb5b6d2-eaf2-47b6-b1f3-8a3a034f1bfa")
+	)
+	(fp_line
+		(start 12.75 -4.75)
+		(end 12.75 4.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "293bff15-7c3d-4959-a0c4-8665416b68fa")
+	)
+	(fp_line
+		(start 12.75 4.75)
+		(end -12.75 4.75)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0e181f9d-04eb-4630-a455-5f88375c8201")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "fb89a21f-65b4-450e-973c-de7f551c54b7")
+	)
+	(pad "1" thru_hole circle
+		(at -11.25 0)
+		(size 2.8 2.8)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0fceaade-8068-4482-aaaa-4dc4c98a3a29")
+	)
+	(pad "2" thru_hole circle
+		(at 11.25 0)
+		(size 2.8 2.8)
+		(drill 1.5)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "19baa0be-0a10-4c4f-a760-e36880e31042")
+	)
+	(model "${KICAD6_3DMODEL_DIR}/Fuses/0PTF0078P.step"
+		(offset
+			(xyz 0 0 6.2)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
